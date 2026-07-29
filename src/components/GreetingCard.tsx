@@ -8,7 +8,7 @@ export function GreetingCard() {
       </div>
 
       <h1 className="bg-gradient-to-r from-indigo-600 via-violet-600 to-fuchsia-600 bg-clip-text text-4xl font-extrabold tracking-tight text-transparent sm:text-5xl">
-        Hello, World!
+        Yes
       </h1>
 
       <p className="mt-4 text-base leading-relaxed text-slate-600">
