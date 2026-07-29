@@ -1,4 +1,5 @@
 import { createFileRoute } from '@tanstack/react-router';
+import { GreetingCard } from '@/components/GreetingCard';
 
 export const Route = createFileRoute('/')({
   component: HomePage,
@@ -6,10 +7,8 @@ export const Route = createFileRoute('/')({
 
 function HomePage() {
   return (
-    <div className="flex min-h-screen items-center justify-center bg-slate-950 p-6">
-      <div className="rounded-2xl border border-white/10 bg-white/5 px-10 py-8 text-center text-slate-300">
-        Hello World app — coming together
-      </div>
+    <div className="flex min-h-screen items-center justify-center bg-gradient-to-br from-slate-50 via-indigo-50 to-fuchsia-100 p-6">
+      <GreetingCard />
     </div>
   );
 }
